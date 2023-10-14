@@ -18,6 +18,8 @@
         <a href="#banner">Home</a>
         <a href="#bestSellingProducts">Best products</a>
         <a href="#trendingProducts">Trending products</a>
+        <a href="#">Log in</a>
+        <a href="#">Sign in</a>
     </nav>
 
     <div id="banner">
