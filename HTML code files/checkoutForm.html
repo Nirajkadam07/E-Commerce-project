@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Online Mart</title>
+</head>
+
+<body>
+
+    <h1>Checkout</h1>
+    <hr>
+
+    <form action="/index.html" method="post">
+
+        <h2>Billing details</h2>
+
+        <label for="fname">First Name
+            <abbr title="required">*</abbr>
+        </label>
+        <br>
+        <input type="text" id="fname" name="fname" required>
+        <br><br>
+        <label for="lname">Last Name
+            <abbr title="required">*</abbr>
+        </label>
+        <br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="residence">Country
+            <abbr title="required">*</abbr>
+        </label><br>
+        <input type="text" id="residence" name="residence" required><br><br>
+
+        <label for="streetAddress">Street address
+            <abbr title="required">*</abbr>
+        </label><br>
+        <input type="text" id="streetAddress" name="streetAddress" placeholder="House number" required><br><br>
+        <input type="text" id="streetAddress" name="streetAddress" placeholder="Apartment,street etc." required><br><br>
+
+        <label for="townCity">Town/City
+            <abbr title="required">*</abbr>
+        </label><br>
+        <input type="text" id="townCity" name="townCity" required><br><br>
+
+        <label for="state">State
+            <abbr title="required">*</abbr>
+        </label><br>
+        <input type="text" id="state" name="state" required><br><br>
+
+        <label for="phone">Phone
+            <abbr title="required">*</abbr>
+        </label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email address
+            <abbr title="required">*</abbr>
+        </label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <h2>Additional information</h2>
+        <hr>
+
+        <label for="notes">Order notes (optional)</label><br>
+        <textarea name="notes" id="notes" cols="5" rows="2"
+            placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+
+    </form>
+</body>
+
+</html>
